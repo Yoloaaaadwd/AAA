@@ -16,4 +16,12 @@
 > >[id]:https://modelscope.cn/ "LLM"  
 >  >**Where I get the dataAPI?**  
 >  >[id]:https://app.tavily.com/ "data"
+>  >
+>  >## Chapter 02
+>  >I try to understand what is 'transformer' and what is 'self-attention',but I still feel confused.
+>  >#Transformer
+>  >In my view,'transformer' depends 'attention',it solves the problem like if a word has two propoerties,and the RNN can't distinguish the difference,and through a mechanism called 'self-attention',that it can do it.This is my understanding.And I just know this 'attention' is derived through matrix transformations and vector transformations, but I don't quite grasp the underlying principles.And I think the llm or agents not even truly understanding the natural language,they just train by lots of data and it generate by probability.
+>  >
+>  >## Chapter 03
+>  >
 
