@@ -34,7 +34,7 @@
 >  >(7)Last, multiply each word's V vector by its corresponding attention weight, then perform a weighted sum to obtain a new set of vectors. This new set of vectors will encompass every word in the sentence along with an understanding of the meanings of other words.  
 >  >
 >  >## Chapter 03
->  >#Building Your Agent Framework
+>  >#Building Your Agent Framework  
 >  >*1.HelloAgentsLLM Extension*  
 >  >Create Custom LLM Class and Inherit->Override __init__ Method to Support New Provider->Using the Custom MyLLM Class->configure the ModelScope API key in the .env file->import and use MyLLM in the main program
 >  >we have successfully extended new functionality to the hello-agents library without modifying its source code. This method not only ensures code cleanliness and maintainability but also ensures that our customized functionality will not be lost when upgrading the hello-agents library in the future.
