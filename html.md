@@ -1,15 +1,15 @@
 # Html文档结构  
 
     <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Machine Learning Workshop</title>
-    <meta name="viewport" content="width=device-width" />
-  </head>
-  <body>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <title>Machine Learning Workshop</title>
+            <meta name="viewport" content="width=device-width" />
+          </head>
+          <body>
 
-  </body>
+          </body>
 </html>
 
 ## <Head>的其他内容  
@@ -34,7 +34,7 @@
 
 上述代码表示“在适合使用 16px、32px 或 48px 的场景中使用 mlwicon.png 作为图标。”对于可缩放的图标，尺寸属性接受 any 值，或以空格分隔的方形 widthXheight 值列表；其中宽度值和高度值为 16、32、48 或更大值（在该几何序列中），像素单位会被忽略，并且 X 不区分大小写。  
     <link rel="apple-touch-icon" sizes="180x180" href="/images/mlwicon.png" />
-<link rel="mask-icon" href="/images/mlwicon.svg" color="#226DAA" />  
+    <link rel="mask-icon" href="/images/mlwicon.svg" color="#226DAA" />  
 
 Safari 浏览器有两种特殊的非标准图标：apple-touch-icon（用于 iOS 设备）和 mask-icon（用于 macOS 上固定标签页）。apple-touch-icon 仅在用户将网站添加到主屏幕时适用。图标本身应为单色 SVG，并且 color 属性会以所需的颜色填充图标。
 
@@ -44,7 +44,7 @@ Safari 浏览器有两种特殊的非标准图标：apple-touch-icon（用于 iO
 
 假设我们有翻译成法语和巴西葡萄牙语的网站版本：  
     <link rel="alternate" href="https://www.machinelearningworkshop.com/fr/" hreflang="fr-FR" />
-<link rel="alternate" href="https://www.machinelearningworkshop.com/pt/" hreflang="pt-BR" />  
+    <link rel="alternate" href="https://www.machinelearningworkshop.com/pt/" hreflang="pt-BR" />  
 
 使用 alternate 进行翻译时，必须设置 hreflang 属性。  
 
